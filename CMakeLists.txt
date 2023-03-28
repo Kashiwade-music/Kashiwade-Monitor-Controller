@@ -68,6 +68,7 @@ juce_generate_juce_header(AudioPluginExample)
 # CMake command.
 
 add_subdirectory(src)
+add_subdirectory(libs/kdsp)
 # target_sources(AudioPluginExample
 #     PRIVATE
 #         PluginEditor.cpp
